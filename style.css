@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* universal-property  */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Inter', sans-serif;
+     font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+     width: 100%;
+     height: 100%;
+}
+
+/* page2-section  */
+.page2 {
+     width: 100%;
+     height: 100vh;
+}
+
+/* page2-upper-section  */
+.p2-upper {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+
+/* page2-uppper-h1  */
+.p2-upper h1 {
+     font-size: 2rem;
+     font-weight: 600;
+     margin-top: 1vw;
+}
+
+/* page2-upper-box  */
+.p2-upper-box {
+     width: 55px;
+     height: 8px;
+     border-radius: 20px;
+     background-color: #d1c4e9;
+}
+
+/* page2-lower-section  */
+.p2-lower{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     height: calc(100% - 80px);
+}
+
+/* page2-left-lower section  */
+.p2-left-lower {
+     width: 50%;
+     height: 100%;
+}
+
+/* page2-left-lower-section img  */
+.p2-left-lower img {
+     width: 100%;
+     height: 100%;
+}
+
+/* page2-lower-right-section  */
+.p2-lower-right {
+     width: 40%;
+     height: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: start;
+}
+
+/* page2-lower-right-upper-section  */
+.p2-lower-right-upper {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     margin-bottom: 28px;
+}
+
+/* page2-lower-right-box  */
+.p2-lower-right-box {
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background-color: #b2ebf2;
+}
+
+/* page2-lower-right-h4  */
+.p2-lower-right h4 {
+     font-size: 2rem;
+     font-weight: 500;
+}
+
+/* page2-lower-right-p  */
+.p2-lower-right p {
+     font-size: 1rem;
+     font-weight: 500;
+     color: #808080;
+     letter-spacing: .3px;
+}
+
